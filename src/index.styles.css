@@ -9,7 +9,7 @@
 }
 
 body{
-    overflow: hidden;
+    overflow-x: hidden;
     background: url("./assets/images/bg.png");
     font-family: 'Poppins', sans-serif;
 }

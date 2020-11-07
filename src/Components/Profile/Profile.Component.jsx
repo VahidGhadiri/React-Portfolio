@@ -49,6 +49,7 @@ const Profile = ()=> {
                 <CustomTimeline icon={<PersonOutlineOutlinedIcon/>}>
                     <CustomTimelineItem title="Name" text={resumeData.name}/>
                     <CustomTimelineItem title="Title" text={resumeData.title}/>
+                    <CustomTimelineItem title="Phone" text={resumeData.phone}/>
                     <CustomTimelineItem title="Email" text={resumeData.email}/>
 
 

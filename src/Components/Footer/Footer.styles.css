@@ -1,0 +1,25 @@
+@import "../../app.styles.css";
+
+
+.footer{
+    background-color:#1e1e1e ;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 70px;
+    border-radius: 8px;
+    padding: 20px 25px ;
+    
+}
+
+.footer .Footer-copywrite{
+    font-size: small;
+    text-align: end;
+    color: #9c9c9c;
+}
+
+.footer .Footer-copywrite > a{
+    text-decoration: none ;
+    color: var(--main-color);
+}
