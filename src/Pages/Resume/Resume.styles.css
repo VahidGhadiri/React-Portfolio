@@ -1,0 +1,60 @@
+@import "../../app.styles.css";
+
+.aboutme-text{
+    color: darkslategray;
+    font-size: smaller;
+    line-height: 22px !important;
+    white-space: pre-line;
+}
+
+.resumeTimeline .timeline-content .timeline-title{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.resumeTimeline .timeline-content .timeline-date{
+    color: darkslategray;
+}
+
+.resumeTimeline .timeline-content .timeline-description{
+    color: gray;
+    font: small;
+    margin-top: 6px;
+}
+
+.extra-padding{
+    padding-top: 45px;
+}
+
+.skill{
+    height: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.skill .skill-title{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 35px;
+    text-align: center;
+}
+
+.skill .skill-description{
+    color: #989898;
+    border:var(--main-color);
+    margin-right: 5px;
+    text-align: center;
+}
+
+.skill .MuiSvgIcon-root{
+    font-size: 46px;
+    margin-left: 0;
+    font-weight: 300;
+    color: darkslategray;
+}
+
+.centering{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}

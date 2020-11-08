@@ -18,19 +18,20 @@ function App() {
           <Profile />
         </Grid>
         <Grid item xs>
-        
-        <BrowserRouter>
-        <Header />
-            <Switch>
-              <Route path="/portfolio">
-                <Portfolio />
-              </Route>
-              <Route path="/">
-                <Resume />
-              </Route>
-            </Switch>
+          <BrowserRouter>
+            <Header />
+            <div className="main-content container-shadow">
+              <Switch>
+                <Route path="/portfolio">
+                  <Portfolio />
+                </Route>
+                <Route path="/">
+                  <Resume />
+                </Route>
+              </Switch>
+            </div>
           </BrowserRouter>
-          
+
           <Footer />
         </Grid>
       </Grid>
