@@ -96,21 +96,5 @@ export default {
                 icon: <AccountTreeIcon/>
             },
         ],
-
-        softSkills:[
-                {
-                    title: "Accountability",
-                    description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis a officiis maxime tempora doloremque iure."
-                },
-                {
-                    title: "Teamwork And Collaboration",
-                    description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis a officiis maxime tempora doloremque iure."
-                },
-                {
-                    title: "Open-Mindedness And Adaptability",
-                    description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis a officiis maxime tempora doloremque iure."
-                },
-                
-        ]
 } 
 
