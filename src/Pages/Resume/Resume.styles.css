@@ -2,14 +2,17 @@
 
 .aboutme-text{
     color: darkslategray;
-    font-size: smaller;
+    font-size: 14px !important;
     line-height: 22px !important;
     white-space: pre-line;
+    font-family: Marine !important;
+    word-spacing: 2px;
 }
 
 .resumeTimeline .timeline-content .timeline-title{
     font-size: 16px;
     font-weight: 500;
+    font-family: Marine !important;
 }
 
 .resumeTimeline .timeline-content .timeline-date{
@@ -19,6 +22,7 @@
 .resumeTimeline .timeline-content .timeline-description{
     color: gray;
     font: small;
+    font-family: Marine !important;
     margin-top: 6px;
 }
 
@@ -32,7 +36,8 @@
     margin-bottom: 15px;
 }
 .skill .skill-title{
-    font-size: 16px;
+    font-family: Marine !important;
+    font-size: 14px;
     font-weight: 500;
     line-height: 35px;
     text-align: center;
@@ -43,10 +48,11 @@
     border:var(--main-color);
     margin-right: 5px;
     text-align: center;
+    font-family: Marine !important;
 }
 
 .skill .MuiSvgIcon-root{
-    font-size: 46px;
+    font-size: 50px;
     margin-left: 0;
     font-weight: 300;
     color: darkslategray;

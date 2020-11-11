@@ -11,7 +11,6 @@ import BrushRoundedIcon from "@material-ui/icons/BrushRounded";
 import TimelineItem from "@material-ui/lab/TimelineItem";
 import TimelineContent from "@material-ui/lab/TimelineContent";
 
-
 const Resume = () => {
   return (
     <>
@@ -39,7 +38,7 @@ const Resume = () => {
         <Grid item xs={12}>
           <Grid container className="resumeTimeline">
             <Grid item xs={12} md={6}>
-              <CustomTimeline title="Exp one" icon={<BrushRoundedIcon />}>
+              <CustomTimeline icon={<BrushRoundedIcon />}>
                 {resumeData.design.map((exp) => {
                   return (
                     <TimelineItem>
@@ -48,10 +47,10 @@ const Resume = () => {
                         <Typography className="timeline-title">
                           {exp.title}
                         </Typography>
-                        <Typography className="timeline-date" variant="caption">
-                          {exp.data}
-                          <br />
-                        </Typography>
+                        <Typography
+                          className="timeline-date"
+                          variant="caption"
+                        ></Typography>
                         <Typography
                           className="timeline-description"
                           variant="body"
@@ -65,7 +64,7 @@ const Resume = () => {
               </CustomTimeline>
             </Grid>
             <Grid item xs={12} md={6}>
-              <CustomTimeline title="Exp two" icon={<CodeRoundedIcon />}>
+              <CustomTimeline icon={<CodeRoundedIcon />}>
                 {resumeData.programming.map((exp) => {
                   return (
                     <TimelineItem>
@@ -74,10 +73,10 @@ const Resume = () => {
                         <Typography className="timeline-title">
                           {exp.title}
                         </Typography>
-                        <Typography className="timeline-date" variant="caption">
-                          {exp.data}
-                          <br />
-                        </Typography>
+                        <Typography
+                          className="timeline-date"
+                          variant="caption"
+                        ></Typography>
                         <Typography
                           className="timeline-description"
                           variant="body"
@@ -102,19 +101,23 @@ const Resume = () => {
         </Grid>
 
         <Grid items xs={12}>
-                <Grid container justify={"space-around"} className = "pb-45 centering">
-                    {resumeData.axSkill.map(skill =>{
-                        return(
-                            <Grid item xs={12} sm={6} md={3}>
-                                <div className = "skill">
-                                    <div className = "skill-icon">{skill.icon}</div>
-                                    <Typography variant="h6" className = "skill-title">{skill.title}</Typography>
-                                    <Typography variant="body2" className = "skill-description">{skill.description}</Typography>
-                                </div>
-                            </Grid>
-                        )
-                    })}
+          <Grid container justify={"space-around"} className="pb-45 centering">
+            {resumeData.axSkill.map((skill) => {
+              return (
+                <Grid item xs={12} sm={6} md={3}>
+                  <div className="skill">
+                    <div className="skill-icon">{skill.icon}</div>
+                    <Typography variant="h6" className="skill-title">
+                      {skill.title}
+                    </Typography>
+                    <Typography variant="body2" className="skill-description">
+                      {skill.description}
+                    </Typography>
+                  </div>
                 </Grid>
+              );
+            })}
+          </Grid>
         </Grid>
       </Grid>
       {/*Skills me*/}
