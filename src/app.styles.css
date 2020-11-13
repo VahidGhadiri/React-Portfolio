@@ -30,6 +30,9 @@
     padding-bottom: 45px  !important;
 }
 
+.mb-20{
+    margin-bottom: 20px !important;
+}
 
 @media (max-width: 991px){
     .top-60{

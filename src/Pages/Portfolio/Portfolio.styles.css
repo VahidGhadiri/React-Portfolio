@@ -1,0 +1,59 @@
+/* Tabs */
+.custom-tabs .custom-tabs-item{  
+    padding: 0px !important;
+    min-width: 0px !important;
+    margin-right:  20px !important;
+    text-transform: inherit !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    outline-width: 0px !important;
+    box-shadow: none !important;
+    font-family: "Marine" !important
+}
+
+.custom-tabs .active{
+    color:#ffc500;
+}
+/* End of tabs */
+
+/* Cards */
+.custom-card{
+    height: 100% !important;
+    max-width: 350px !important;
+    box-shadow: 0 0 48px 0 rgba(4, 6, 4, 0.08) !important;
+    border-radius: 5px !important;
+    overflow: hidden !important;
+    outline-width: 0px !important ;
+}
+
+.custom-card .custom-card-image{
+    height: 140px !important;
+}
+
+.custom-card-title{
+    font-family: "Marine" !important;
+    font-size: 15px !important;
+   
+}
+
+.custom-card .custom-card-caption{
+    color: darkslategray !important;
+    font-family: "Marine" !important;
+    font-weight: 400 !important;
+}
+/* card ends */
+
+/* dialog */
+
+
+.project-dialog .project-dialog-image{
+    max-height: 300px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.project-dialog .project-dialog-description{
+
+}
+
