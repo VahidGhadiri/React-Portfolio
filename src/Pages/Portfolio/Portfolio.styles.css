@@ -27,7 +27,7 @@
 }
 
 .custom-card .custom-card-image{
-    height: 140px !important;
+    height: 200px !important;
 }
 
 .custom-card-title{
@@ -47,7 +47,7 @@
 
 
 .project-dialog .project-dialog-image{
-    max-height: 300px;
+    max-height: 500px;
     width: 100%;
     object-fit: cover;
     object-position: center center;

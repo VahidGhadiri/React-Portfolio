@@ -4,6 +4,8 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import AccountTreeIcon from "@material-ui/icons/AccountTree";
 import PaletteIcon from "@material-ui/icons/Palette";
+import Giano from "../assets/images/Giano/Giano.png"
+import Xaniar from "../assets/images/Siravan khosravi/1.jpg"
 
 export default {
   name: "Vahid  Ghadiri",
@@ -103,16 +105,14 @@ export default {
   projects: [
     {
       tag: "UI / UX",
-      image:
-        "https://images.theconversation.com/files/93616/original/image-20150902-6700-t2axrz.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1000&fit=clip",
+      image:Giano,
       title: "Project 1",
       caption: "a short description ",
       description: "this is my project and i wanna describe it",
     },
     {
       tag: "UI / UX",
-      image:
-        "https://images.theconversation.com/files/93616/original/image-20150902-6700-t2axrz.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1000&fit=clip",
+      image:Xaniar,
       title: "Project 1",
       caption: "a short description ",
       description: "this is my project and i wanna describe it",
